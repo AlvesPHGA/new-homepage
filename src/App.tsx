@@ -1,16 +1,9 @@
+import { Header } from './components/global/Header/Header';
+
 function App() {
    return (
       <>
-         <header>
-            <span>Logo</span>
-            <nav>
-               <a href="">Home</a>
-               <a href="">New</a>
-               <a href="">Popular</a>
-               <a href="">Treding</a>
-               <a href="">Categories</a>
-            </nav>
-         </header>
+         <Header />
 
          <main>
             <section>
