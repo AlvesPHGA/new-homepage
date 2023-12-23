@@ -14,6 +14,16 @@ export default {
             darkGrayishBlue: 'hsl(236, 13%, 42%)',
             veryDarkBlue: 'hsl(240, 100%, 5%)',
          },
+
+         fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+         },
+
+         fontWeight: {
+            normal: '400',
+            bold: '700',
+            'extra-bold': '800',
+         },
       },
    },
    plugins: [],
