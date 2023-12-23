@@ -1,7 +1,29 @@
 function App() {
    return (
       <>
-         <h1 className="text-gray-400 text-[200px]">Hello world!</h1>
+         <header>
+            <span>Logo</span>
+            <nav>
+               <a href="">Home</a>
+               <a href="">New</a>
+               <a href="">Popular</a>
+               <a href="">Treding</a>
+               <a href="">Categories</a>
+            </nav>
+         </header>
+
+         <main>
+            <section>
+               <div></div>
+               <aside></aside>
+            </section>
+            <section>
+               <div></div>
+               <div></div>
+               <div></div>
+            </section>
+         </main>
+         <footer></footer>
       </>
    );
 }
