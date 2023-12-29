@@ -9,19 +9,24 @@ export function MainContent() {
             className="h-72 w-full object-cover"
          />
 
-         <div className="font-inter flex justify-between">
-            <h1 className="text-5xl font-extra-bold w-[280px]">
+         <div className="font-inter flex justify-between mt-8">
+            <h1 className="text-5xl leading-[3rem] font-extra-bold w-[280px]">
                The Bright Future of Web 3.0?
             </h1>
 
-            <div className="w-[358px]">
+            <div className="w-[358px] mx-2">
                <p className="text-base">
                   We dive into the next evolution of the web that claims to put
                   the power of the platforms back into the hands of the people.
                   But is it really fulfilling its promise?
                </p>
 
-               <a href="">Read more</a>
+               <a
+                  href=""
+                  className="block w-fit px-11 py-3 text-white bg-softRed uppercase mt-10 tracking-widest"
+               >
+                  Read more
+               </a>
             </div>
          </div>
       </section>
