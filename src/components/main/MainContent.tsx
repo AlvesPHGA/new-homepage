@@ -2,7 +2,7 @@ import coverMain from '../../assets/images/image-web-3-desktop.jpg';
 
 export function MainContent() {
    return (
-      <section className="border w-full">
+      <section className="w-full">
          <img
             src={coverMain}
             alt="Foto de capa"

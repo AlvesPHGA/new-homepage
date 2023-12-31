@@ -8,7 +8,7 @@ function App() {
          <Header />
 
          <main className="w-[75rem] mx-auto">
-            <section className="w-full grid grid-cols-[63%_32%] justify-between border border-red-600">
+            <section className="w-full grid grid-cols-[63%_32%] justify-between">
                <MainContent />
                <AsideContent />
             </section>
