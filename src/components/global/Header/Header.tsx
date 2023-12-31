@@ -3,7 +3,7 @@ import Logo from '../../../assets/icon/logo.svg';
 export function Header() {
    return (
       <header className="px-8">
-         <div className="w-[75rem] py-5 mx-auto flex items-center justify-between font-inter border">
+         <div className="w-[75rem] py-10 mx-auto flex items-center justify-between font-inter">
             <img src={Logo} alt="Logo site" />
             <nav className="text-2xl">
                <a className="hover:text-softRed mr-6" href="">
