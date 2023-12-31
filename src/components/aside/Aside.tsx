@@ -4,7 +4,7 @@ export function AsideContent() {
          <h2 className="text-softOrange text-5xl font-bold">New</h2>
 
          <a className="mt-8 mb-8 pr-6 block cursor-pointer group">
-            <h3 className="text-white text-lg font-bold group-hover:text-softOrange">
+            <h3 className="text-white text-lg font-bold group-hover:text-softOrange transition-all delay-200">
                Hydrogen VS Electric Cars
             </h3>
             <p className="text-grayishBlue leading-7">
@@ -13,7 +13,7 @@ export function AsideContent() {
          </a>
 
          <a className="border-t border-b border-darkGrayishBlue py-8 pr-4 block cursor-pointer group">
-            <h3 className="text-white text-lg font-bold group-hover:text-softOrange">
+            <h3 className="text-white text-lg font-bold group-hover:text-softOrange transition-all delay-200">
                The Downsides of Al Artistry
             </h3>
             <p className="text-grayishBlue leading-7">
@@ -23,7 +23,7 @@ export function AsideContent() {
          </a>
 
          <a className="block cursor-pointer group">
-            <h3 className="text-white text-lg font-bold mt-8 group-hover:text-softOrange">
+            <h3 className="text-white text-lg font-bold mt-8 group-hover:text-softOrange transition-all delay-200">
                Is VC Funding Drying Up?
             </h3>
             <p className="text-grayishBlue leading-7">
