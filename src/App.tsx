@@ -13,7 +13,7 @@ function App() {
                <MainContent />
                <AsideContent />
             </section>
-            <section className="flex justify-between">
+            <section className="flex justify-between pt-20">
                <Card />
                <Card />
                <Card />
