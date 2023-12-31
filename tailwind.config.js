@@ -15,6 +15,10 @@ export default {
             veryDarkBlue: 'hsl(240, 100%, 5%)',
          },
 
+         spacing: {
+            wCard: 'calc(1140px/3)',
+         },
+
          fontFamily: {
             inter: ['Inter', 'sans-serif'],
          },
@@ -23,6 +27,10 @@ export default {
             normal: '400',
             bold: '700',
             'extra-bold': '800',
+         },
+
+         gridTemplateColumns: {
+            main: '63% 32%',
          },
       },
    },

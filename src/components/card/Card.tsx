@@ -3,8 +3,8 @@ import image01 from '../../assets/images/image-retro-pcs.jpg';
 
 export function Card() {
    return (
-      <div className="flex gap-6 w-[calc((1200px/3)-20px)] h-fit font-inter">
-         <div className="border">
+      <div className="flex gap-6 w-wCard h-fit font-inter">
+         <div>
             <img src={image01} alt="" className="object-fill" />
          </div>
          <div className="flex flex-col justify-center gap-3 ">
