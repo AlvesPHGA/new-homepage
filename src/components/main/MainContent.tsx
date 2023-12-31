@@ -23,7 +23,7 @@ export function MainContent() {
 
                <a
                   href=""
-                  className="block w-fit px-11 py-3 text-white bg-softRed uppercase mt-10 tracking-widest"
+                  className="block w-fit px-11 py-3 text-white bg-softRed uppercase mt-10 tracking-widest hover:bg-veryDarkBlue transition-all delay-200"
                >
                   Read more
                </a>
