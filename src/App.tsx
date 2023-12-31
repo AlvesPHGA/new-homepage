@@ -13,7 +13,9 @@ function App() {
                <MainContent />
                <AsideContent />
             </section>
-            <section>
+            <section className="flex justify-between">
+               <Card />
+               <Card />
                <Card />
             </section>
          </main>
