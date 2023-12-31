@@ -1,9 +1,9 @@
 export function AsideContent() {
    return (
-      <aside className="bg-veryDarkBlue font-inter py-10 px-5">
+      <aside className="bg-veryDarkBlue font-inter py-5 px-5">
          <h2 className="text-softOrange text-5xl font-bold">New</h2>
 
-         <div className="mt-8 mb-8">
+         <div className="mt-8 mb-8 pr-6">
             <h3 className="text-white text-lg font-bold">
                Hydrogen VS Electric Cars
             </h3>
@@ -12,7 +12,7 @@ export function AsideContent() {
             </p>
          </div>
 
-         <div className="border-t border-b border-darkGrayishBlue py-8">
+         <div className="border-t border-b border-darkGrayishBlue py-8 pr-4">
             <h3 className="text-white text-lg font-bold">
                The Downsides of Al Artistry
             </h3>
