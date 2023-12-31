@@ -3,34 +3,34 @@ export function AsideContent() {
       <aside className="bg-veryDarkBlue font-inter py-5 px-5">
          <h2 className="text-softOrange text-5xl font-bold">New</h2>
 
-         <div className="mt-8 mb-8 pr-6">
-            <h3 className="text-white text-lg font-bold">
+         <a className="mt-8 mb-8 pr-6 block cursor-pointer group">
+            <h3 className="text-white text-lg font-bold group-hover:text-softOrange">
                Hydrogen VS Electric Cars
             </h3>
             <p className="text-grayishBlue leading-7">
                Will hydrogen-fueled cars ever catch up to EVs?
             </p>
-         </div>
+         </a>
 
-         <div className="border-t border-b border-darkGrayishBlue py-8 pr-4">
-            <h3 className="text-white text-lg font-bold">
+         <a className="border-t border-b border-darkGrayishBlue py-8 pr-4 block cursor-pointer group">
+            <h3 className="text-white text-lg font-bold group-hover:text-softOrange">
                The Downsides of Al Artistry
             </h3>
             <p className="text-grayishBlue leading-7">
                What are the possible adverse effects of on-demand AI image
                generation?
             </p>
-         </div>
+         </a>
 
-         <div>
-            <h3 className="text-white text-lg font-bold mt-8">
+         <a className="block cursor-pointer group">
+            <h3 className="text-white text-lg font-bold mt-8 group-hover:text-softOrange">
                Is VC Funding Drying Up?
             </h3>
             <p className="text-grayishBlue leading-7">
                Private funding by VC firms is down 50% YOY. We take a look at
                what that means.
             </p>
-         </div>
+         </a>
       </aside>
    );
 }
