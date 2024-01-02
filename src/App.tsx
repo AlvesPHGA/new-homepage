@@ -8,12 +8,12 @@ function App() {
       <>
          <Header />
 
-         <main className="w-[75rem] mx-auto">
-            <section className="w-full grid grid-cols-main justify-between">
+         <main className="xl:w-[75rem] 2xl:w-[75rem] lg:w-[1000px] xl:mx-auto 2xl:mx-auto lg:mx-auto">
+            <section className="xl:w-full xl:grid xl:grid-cols-main xl:justify-between  2xl:w-full 2xl:grid 2xl:grid-cols-main 2xl:justify-between lg:w-full lg:grid lg:grid-cols-main lg:justify-between">
                <MainContent />
                <AsideContent />
             </section>
-            <section className="flex justify-between pt-20">
+            <section className="xl:flex xl:justify-between xl:pt-20 2xl:flex 2xl:justify-between 2xl:pt-20 lg:flex lg:justify-between lg:pt-16">
                <Card />
                <Card />
                <Card />

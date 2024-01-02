@@ -1,29 +1,31 @@
 export function AsideContent() {
    return (
-      <aside className="bg-veryDarkBlue font-inter py-5 px-5">
-         <h2 className="text-softOrange text-5xl font-bold">New</h2>
+      <aside className="bg-veryDarkBlue font-inter xl:py-5 xl:px-5 2xl:py-5 2xl:px-5 lg:py-4 lg:px-5">
+         <h2 className="text-softOrange font-bold xl:text-5xl 2xl:text-5xl lg:text-4xl">
+            New
+         </h2>
 
-         <a className="mt-8 mb-8 pr-6 block cursor-pointer group">
-            <h3 className="text-white text-lg font-bold group-hover:text-softOrange transition-all delay-200">
+         <a className="block cursor-pointer group xl:mt-8 xl:mb-8 xl:pr-6 2xl:mt-8 2xl:mb-8 2xl:pr-6 lg:mt-2 lg:mb-4 lg:pr-6">
+            <h3 className="text-white text-lg font-bold xl:group-hover:text-softOrange xl:transition-all xl:delay-200 2xl:group-hover:text-softOrange 2xl:transition-all 2xl:delay-200 lg:group-hover:text-softOrange lg:transition-all lg:delay-200">
                Hydrogen VS Electric Cars
             </h3>
-            <p className="text-grayishBlue leading-7">
+            <p className="text-grayishBlue xl:leading-7 2xl:leading-7 lg:leading-7">
                Will hydrogen-fueled cars ever catch up to EVs?
             </p>
          </a>
 
-         <a className="border-t border-b border-darkGrayishBlue py-8 pr-4 block cursor-pointer group">
-            <h3 className="text-white text-lg font-bold group-hover:text-softOrange transition-all delay-200">
+         <a className="border-t border-b border-darkGrayishBlue block cursor-pointer group xl:py-8 xl:pr-4 2xl:py-8 2xl:pr-4 lg:py-6 lg:pr-4">
+            <h3 className="text-white text-lg font-bold xl:group-hover:text-softOrange xl:transition-all xl:delay-200 2xl:group-hover:text-softOrange 2xl:transition-all 2xl:delay-200 lg:group-hover:text-softOrange lg:transition-all lg:delay-200">
                The Downsides of Al Artistry
             </h3>
-            <p className="text-grayishBlue leading-7">
+            <p className="text-grayishBlue xl:leading-7 2xl:leading-7 lg:leading-7">
                What are the possible adverse effects of on-demand AI image
                generation?
             </p>
          </a>
 
          <a className="block cursor-pointer group">
-            <h3 className="text-white text-lg font-bold mt-8 group-hover:text-softOrange transition-all delay-200">
+            <h3 className="text-white text-lg font-bold xl:mt-8 xl:group-hover:text-softOrange xl:transition-all xl:delay-200 2xl:mt-8 2xl:group-hover:text-softOrange 2xl:transition-all 2xl:delay-200 lg:mt-4 lg:group-hover:text-softOrange lg:transition-all lg:delay-200">
                Is VC Funding Drying Up?
             </h3>
             <p className="text-grayishBlue leading-7">
