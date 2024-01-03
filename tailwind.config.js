@@ -17,6 +17,7 @@ export default {
 
          spacing: {
             wCard: 'calc(1140px/3)',
+            wCard_lg: 'calc(970px/3)',
          },
 
          fontFamily: {
