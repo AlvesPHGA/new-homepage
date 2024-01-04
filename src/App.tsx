@@ -8,8 +8,8 @@ function App() {
       <>
          <Header />
 
-         <main className="xl:w-[75rem] 2xl:w-[75rem] lg:w-[1000px] mbl_s:w-full xl:mx-auto 2xl:mx-auto lg:mx-auto md:w-[calc(768px-40px)] md:mx-auto">
-            <section className="xl:w-full xl:grid xl:grid-cols-main xl:justify-between  2xl:w-full 2xl:grid 2xl:grid-cols-main 2xl:justify-between lg:w-full lg:grid lg:grid-cols-main lg:justify-between md:grid md:w-full md:grid-cols-main md:justify-between">
+         <main className="xl:w-[75rem] 2xl:w-[75rem] lg:w-[1000px] mbl_s:w-full xl:mx-auto 2xl:mx-auto lg:mx-auto md:w-[calc(768px-40px)] md:mx-auto mbl_s:px-4">
+            <section className="xl:w-full xl:grid xl:grid-cols-main xl:justify-between  2xl:w-full 2xl:grid 2xl:grid-cols-main 2xl:justify-between lg:w-full lg:grid lg:grid-cols-main lg:justify-between md:grid md:w-full md:grid-cols-main md:justify-between mbl_s:w-full">
                <MainContent />
                <AsideContent />
             </section>
