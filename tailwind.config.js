@@ -33,6 +33,12 @@ export default {
          gridTemplateColumns: {
             main: '63% 32%',
          },
+
+         screens: {
+            mbl_s: { max: '320px' },
+            mbl_m: { min: '321px', max: '375px' },
+            mbl_l: { min: '376px', max: '425px' },
+         },
       },
    },
    plugins: [],
