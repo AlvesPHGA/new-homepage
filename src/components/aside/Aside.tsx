@@ -1,7 +1,7 @@
 export function AsideContent() {
    return (
-      <aside className="bg-veryDarkBlue font-inter xl:py-5 xl:px-5 2xl:py-5 2xl:px-5 lg:py-4 lg:px-5 md:px-2 md:py-2">
-         <h2 className="text-softOrange font-bold xl:text-5xl 2xl:text-5xl lg:text-4xl md:text-2xl">
+      <aside className="bg-veryDarkBlue font-inter xl:py-5 xl:px-5 2xl:py-5 2xl:px-5 lg:py-4 lg:px-5 md:px-2 md:py-2 mbl_s:my-10 mbl_s:py-5 mbl_s:px-3">
+         <h2 className="text-softOrange font-bold xl:text-5xl 2xl:text-5xl lg:text-4xl md:text-2xl mbl_s:mb-3 mbl_s:text-3xl">
             New
          </h2>
 
@@ -14,7 +14,7 @@ export function AsideContent() {
             </p>
          </a>
 
-         <a className="border-t border-b border-darkGrayishBlue block cursor-pointer group xl:py-8 xl:pr-4 2xl:py-8 2xl:pr-4 lg:py-6 lg:pr-4 md:py-4 md:pr-0">
+         <a className="border-t border-b border-darkGrayishBlue block cursor-pointer group xl:py-8 xl:pr-4 2xl:py-8 2xl:pr-4 lg:py-6 lg:pr-4 md:py-4 md:pr-0 mbl_s:my-5 mbl_s:py-5">
             <h3 className="text-white text-lg font-bold xl:group-hover:text-softOrange xl:transition-all xl:delay-200 2xl:group-hover:text-softOrange 2xl:transition-all 2xl:delay-200 lg:group-hover:text-softOrange lg:transition-all lg:delay-200 md:text-base">
                The Downsides of Al Artistry
             </h3>
