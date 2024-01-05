@@ -12,8 +12,8 @@ export function MainContent() {
             className="h-72 w-full object-cover mbl_s:h-60 mbl_m:h-60 mbl_l:h-60"
          />
 
-         <div className="font-inter xl:flex xl:justify-between xl:mt-8 2xl:flex 2xl:justify-between 2xl:mt-8 lg:flex lg:justify-between lg:mt-7">
-            <h1 className="xl:text-5xl xl:leading-[3rem] xl:font-extra-bold xl:w-[280px] 2xl:text-5xl 2xl:leading-[3rem] 2xl:font-extra-bold 2xl:w-[280px] lg:text-4xl lg:leading-[2.8rem] lg:font-extra-bold lg:w-[248px] md:text-3xl md:leading-none md:font-extra-bold md:mt-4 md:mb-3 mbl_s:font-extra-bold mbl_s:text-4xl mbl_s:mt-4 mbl_m:text-4xl mbl_m:mt-4 mbl_m:font-extra-bold mbl_l:text-4xl mbl_l:mt-4 mbl_l:font-extra-bold">
+         <div className="xl:flex xl:justify-between xl:mt-8 2xl:flex 2xl:justify-between 2xl:mt-8 lg:flex lg:justify-between lg:mt-7">
+            <h1 className="xl:text-5xl xl:leading-[3rem]  xl:w-[280px] 2xl:text-5xl 2xl:leading-[3rem]  2xl:w-[280px] lg:text-4xl lg:leading-[2.8rem]  lg:w-[248px] md:text-3xl md:leading-none  md:mt-4 md:mb-3  mbl_s:text-4xl mbl_s:mt-4 mbl_m:text-4xl mbl_m:mt-4  mbl_l:text-4xl mbl_l:mt-4">
                The Bright Future of Web 3.0?
             </h1>
 

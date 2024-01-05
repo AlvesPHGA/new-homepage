@@ -7,7 +7,7 @@ export function Header() {
       <header className="xl:2xl:px-8 mbl_s:px-4 mbl_s:py-4 mbl_m:px-4 mbl_m:py-4 mbl_l:px-4 mbl_l:py-4">
          <div className="font-inter xl:2xl:w-[75rem] xl:2xl:py-10 xl:2xl:lg:mx-auto xl:2xl:lg:flex xl:2xl:items-center xl:2xl:justify-between lg:w-[1000px] lg:mx-auto lg:flex lg:items-center lg:justify-between lg:py-5 md:w-[calc(768px-40px)] md:flex md:items-center md:mx-auto md:py-6 mbl_s:flex mbl_m:flex mbl_l:flex">
             <img src={Logo} alt="Logo site" />
-            <nav className="xl:2xl:text-2xl lg:text-xl md:hidden mbl_s:hidden mbl_m:hidden mbl_l:hidden">
+            <nav className="xl:block xl:text-2xl 2xl:block 2xl:text-2xl lg:text-xl md:hidden mbl_s:hidden mbl_m:hidden mbl_l:hidden">
                {navLinksLegend.map((legend) => (
                   <a
                      key={legend}
