@@ -1,43 +1,47 @@
 @tailwind utilities;
 @layer utilities {
+   .main__content__cta {
+      @apply block w-fit text-white bg-softRed uppercase;
+   }
+
    @media screen(mbl_s) {
-      .main__content {
+      .main__box__01 {
          @apply w-full flex flex-col;
       }
    }
 
    @media screen(mbl_m) {
-      .main__content {
+      .main__box__01 {
          @apply w-full flex flex-col;
       }
    }
 
    @media screen(mbl_l) {
-      .main__content {
+      .main__box__01 {
          @apply w-full flex flex-col;
       }
    }
 
    @media screen(tablet) {
-      .main__content {
+      .main__box__01 {
          @apply grid w-full grid-cols-main justify-between;
       }
    }
 
    @media screen(laptop) {
-      .main__content {
+      .main__box__01 {
          @apply w-full grid grid-cols-main justify-between;
       }
    }
 
    @media screen(desktop) {
-      .main__content {
+      .main__box__01 {
          @apply w-full grid grid-cols-main justify-between;
       }
    }
 
    @media screen(other) {
-      .main__content {
+      .main__box__01 {
          @apply w-full grid grid-cols-main justify-between;
       }
    }

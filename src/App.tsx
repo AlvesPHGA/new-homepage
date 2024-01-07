@@ -9,7 +9,7 @@ function App() {
          <Header />
 
          <main>
-            <section className="main__content">
+            <section className="main__box__01">
                <MainContent />
                <AsideContent />
             </section>
