@@ -1,1 +1,33 @@
 @tailwind utilities;
+
+@media screen(tablet), screen(laptop), screen(desktop), screen(other) {
+   @layer utilities {
+      .main__content {
+         @apply grid w-full grid-cols-main justify-between;
+      }
+   }
+}
+
+/* @media screen(laptop) {
+   @layer utilities {
+      .main__content {
+         @apply w-full grid grid-cols-main justify-between;
+      }
+   }
+}
+
+@media screen(desktop) {
+   @layer utilities {
+      .main__content {
+         @apply w-full grid grid-cols-main justify-between;
+      }
+   }
+}
+
+@media screen(other) {
+   @layer utilities {
+      .main__content {
+         @apply w-full grid grid-cols-main justify-between;
+      }
+   }
+} */

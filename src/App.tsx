@@ -9,7 +9,7 @@ function App() {
          <Header />
 
          <main>
-            <section className="main__content xl:w-full xl:grid xl:grid-cols-main xl:justify-between  2xl:w-full 2xl:grid 2xl:grid-cols-main 2xl:justify-between lg:w-full lg:grid lg:grid-cols-main lg:justify-between md:grid md:w-full md:grid-cols-main md:justify-between mbl_s:w-full">
+            <section className="main__content mbl_s:w-full">
                <MainContent />
                <AsideContent />
             </section>
