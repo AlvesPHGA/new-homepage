@@ -1,6 +1,6 @@
 @import './styles/base';
 @import './styles/components.css';
-@tailwind utilities;
+@import './styles/utilities.css';
 
 /* @layer components {
    .header {
