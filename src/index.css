@@ -16,14 +16,27 @@
    }
 }
 
-@media screen(xl) {
+@media screen(tablet) {
+   .header {
+   }
+
+   .header__container {
+      @apply w-[calc(768px-40px)] flex items-center mx-auto py-6;
+   }
+
+   .header__nav {
+      @apply hidden;
+   }
+}
+
+@media screen(laptop) {
    @layer components {
       .header {
          @apply px-8;
       }
 
       .header__container {
-         @apply py-10 flex items-center justify-between mx-auto xl:w-[75rem];
+         @apply flex items-center justify-between py-5 w-[1000px];
       }
 
       .header__nav {
@@ -31,19 +44,18 @@
       }
 
       .header__nav a {
-         @apply xl:hover:text-softRed xl:transition-all xl:delay-100 xl:mr-6 xl:last:mr-0;
       }
    }
 }
 
-@media screen(2xl) {
+@media screen(desktop) {
    @layer components {
       .header {
          @apply px-8;
       }
 
       .header__container {
-         @apply py-10 flex items-center justify-between mx-auto 2xl:w-[75rem];
+         @apply py-10 flex items-center justify-between mx-auto w-[75rem];
       }
 
       .header__nav {
@@ -51,7 +63,27 @@
       }
 
       .header__nav a {
-         @apply 2xl:hover:text-softRed 2xl:transition-all 2xl:delay-100 2xl:mr-6 2xl:last:mr-0;
+         @apply hover:text-softRed transition-all delay-100 mr-6 last:mr-0;
+      }
+   }
+}
+
+@media screen(other) {
+   @layer components {
+      .header {
+         @apply px-8;
+      }
+
+      .header__container {
+         @apply py-10 flex items-center justify-between mx-auto w-[75rem];
+      }
+
+      .header__nav {
+         @apply block text-2xl;
+      }
+
+      .header__nav a {
+         @apply hover:text-softRed transition-all delay-100 mr-6 last:mr-0;
       }
    }
 }
@@ -68,7 +100,7 @@
    .header__container {
       
       
-      @apply lg:flex lg:items-center lg:justify-between lg:py-5;
+      
       @apply md:flex md:items-center md:mx-auto md:py-6;
       @apply mbl_s:flex;
       @apply mbl_m:flex;
