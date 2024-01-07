@@ -8,7 +8,7 @@
       
       @apply mbl_s:px-4 mbl_s:py-4;
       @apply mbl_m:px-4 mbl_m:py-4;
-      @apply mbl_l:px-4 mbl_l:py-4;
+      
    }
 
    .header__container {
@@ -18,7 +18,7 @@
       @apply md:flex md:items-center md:mx-auto md:py-6;
       @apply mbl_s:flex;
       @apply mbl_m:flex;
-      @apply mbl_l:flex;
+      
    }
 
    .header__nav {
@@ -26,6 +26,6 @@
       
       @apply mbl_s:hidden;
       @apply mbl_m:hidden;
-      @apply mbl_l:hidden;
+      
    }
 } */

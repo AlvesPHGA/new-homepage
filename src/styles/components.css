@@ -1,5 +1,53 @@
 @tailwind components;
 
+@media screen(mbl_s) {
+   @layer components {
+      .header {
+         @apply px-4 py-4;
+      }
+
+      .header__container {
+         @apply flex;
+      }
+
+      .header__nav {
+         @apply hidden;
+      }
+   }
+}
+
+@media screen(mbl_m) {
+   @layer components {
+      .header {
+         @apply px-4 py-4;
+      }
+
+      .header__container {
+         @apply flex;
+      }
+
+      .header__nav {
+         @apply hidden;
+      }
+   }
+}
+
+@media screen(mbl_l) {
+   @layer components {
+      .header {
+         @apply px-4 py-4;
+      }
+
+      .header__container {
+         @apply flex;
+      }
+
+      .header__nav {
+         @apply hidden;
+      }
+   }
+}
+
 @media screen(tablet) {
    @layer components {
       .header {
