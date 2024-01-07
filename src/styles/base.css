@@ -1,0 +1,79 @@
+@tailwind base;
+
+@layer base {
+   h1,
+   h2,
+   h3,
+   p,
+   a {
+      @apply font-inter;
+   }
+
+   h1 {
+      @apply font-extra-bold;
+   }
+}
+
+@media screen(mbl_s) {
+   @layer base {
+      main {
+         @apply w-full px-4;
+      }
+   }
+}
+
+@media screen(mbl_m) {
+   @layer base {
+      main {
+         @apply px-4;
+      }
+   }
+}
+
+@media screen(mbl_l) {
+   @layer base {
+      main {
+         @apply px-4;
+      }
+   }
+}
+
+@media screen(mbl_l) {
+   @layer base {
+      main {
+         @apply px-4;
+      }
+   }
+}
+
+@media screen(tablet) {
+   @layer base {
+      main {
+         @apply w-[calc(768px-40px)] mx-auto;
+      }
+   }
+}
+
+@media screen(laptop) {
+   @layer base {
+      main {
+         @apply w-[1000px] mx-auto;
+      }
+   }
+}
+
+@media screen(desktop) {
+   @layer base {
+      main {
+         @apply w-[75rem] mx-auto;
+      }
+   }
+}
+
+@media screen(other) {
+   @layer base {
+      main {
+         @apply w-[75rem] mx-auto;
+      }
+   }
+}
