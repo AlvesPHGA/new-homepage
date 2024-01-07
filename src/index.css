@@ -16,16 +16,82 @@
    }
 }
 
+@media screen(mbl_s) {
+   @layer base {
+      main {
+         @apply w-full px-4;
+      }
+   }
+}
+
+@media screen(mbl_m) {
+   @layer base {
+      main {
+         @apply px-4;
+      }
+   }
+}
+
+@media screen(mbl_l) {
+   @layer base {
+      main {
+         @apply px-4;
+      }
+   }
+}
+
+@media screen(mbl_l) {
+   @layer base {
+      main {
+         @apply px-4;
+      }
+   }
+}
+
 @media screen(tablet) {
-   .header {
+   @layer base {
+      main {
+         @apply w-[calc(768px-40px)] mx-auto;
+      }
    }
+}
 
-   .header__container {
-      @apply w-[calc(768px-40px)] flex items-center mx-auto py-6;
+@media screen(laptop) {
+   @layer base {
+      main {
+         @apply w-[1000px] mx-auto;
+      }
    }
+}
 
-   .header__nav {
-      @apply hidden;
+@media screen(desktop) {
+   @layer base {
+      main {
+         @apply w-[75rem] mx-auto;
+      }
+   }
+}
+
+@media screen(other) {
+   @layer base {
+      main {
+         @apply w-[75rem] mx-auto;
+      }
+   }
+}
+
+@media screen(tablet) {
+   @layer components {
+      .header {
+      }
+
+      .header__container {
+         @apply w-[calc(768px-40px)] flex items-center mx-auto py-6;
+      }
+
+      .header__nav {
+         @apply hidden;
+      }
    }
 }
 
