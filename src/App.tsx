@@ -9,7 +9,7 @@ function App() {
          <Header />
 
          <main>
-            <section className="main__content mbl_s:w-full">
+            <section className="main__content">
                <MainContent />
                <AsideContent />
             </section>

@@ -1,33 +1,44 @@
 @tailwind utilities;
+@layer utilities {
+   @media screen(mbl_s) {
+      .main__content {
+         @apply w-full flex flex-col;
+      }
+   }
 
-@media screen(tablet), screen(laptop), screen(desktop), screen(other) {
-   @layer utilities {
+   @media screen(mbl_m) {
+      .main__content {
+         @apply w-full flex flex-col;
+      }
+   }
+
+   @media screen(mbl_l) {
+      .main__content {
+         @apply w-full flex flex-col;
+      }
+   }
+
+   @media screen(tablet) {
       .main__content {
          @apply grid w-full grid-cols-main justify-between;
       }
    }
-}
 
-/* @media screen(laptop) {
-   @layer utilities {
+   @media screen(laptop) {
+      .main__content {
+         @apply w-full grid grid-cols-main justify-between;
+      }
+   }
+
+   @media screen(desktop) {
+      .main__content {
+         @apply w-full grid grid-cols-main justify-between;
+      }
+   }
+
+   @media screen(other) {
       .main__content {
          @apply w-full grid grid-cols-main justify-between;
       }
    }
 }
-
-@media screen(desktop) {
-   @layer utilities {
-      .main__content {
-         @apply w-full grid grid-cols-main justify-between;
-      }
-   }
-}
-
-@media screen(other) {
-   @layer utilities {
-      .main__content {
-         @apply w-full grid grid-cols-main justify-between;
-      }
-   }
-} */

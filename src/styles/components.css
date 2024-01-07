@@ -1,7 +1,6 @@
 @tailwind components;
-
-@media screen(mbl_s) {
-   @layer components {
+@layer components {
+   @media screen(mbl_s) {
       .header {
          @apply px-4 py-4;
       }
@@ -14,10 +13,8 @@
          @apply hidden;
       }
    }
-}
 
-@media screen(mbl_m) {
-   @layer components {
+   @media screen(mbl_m) {
       .header {
          @apply px-4 py-4;
       }
@@ -30,10 +27,8 @@
          @apply hidden;
       }
    }
-}
 
-@media screen(mbl_l) {
-   @layer components {
+   @media screen(mbl_l) {
       .header {
          @apply px-4 py-4;
       }
@@ -46,10 +41,8 @@
          @apply hidden;
       }
    }
-}
 
-@media screen(tablet) {
-   @layer components {
+   @media screen(tablet) {
       .header {
       }
 
@@ -61,10 +54,8 @@
          @apply hidden;
       }
    }
-}
 
-@media screen(laptop) {
-   @layer components {
+   @media screen(laptop) {
       .header {
          @apply px-8;
       }
@@ -80,10 +71,8 @@
       .header__nav a {
       }
    }
-}
 
-@media screen(desktop) {
-   @layer components {
+   @media screen(desktop) {
       .header {
          @apply px-8;
       }
@@ -100,10 +89,8 @@
          @apply hover:text-softRed transition-all delay-100 mr-6 last:mr-0;
       }
    }
-}
 
-@media screen(other) {
-   @layer components {
+   @media screen(other) {
       .header {
          @apply px-8;
       }
