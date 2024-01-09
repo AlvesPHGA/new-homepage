@@ -12,6 +12,10 @@
       @apply font-extra-bold;
    }
 
+   aside {
+      @apply bg-veryDarkBlue;
+   }
+
    @media screen(mbl_s) {
       main {
          @apply w-full px-4;

@@ -32,6 +32,18 @@
       .main__content__box__01 a {
          @apply px-8 py-1 text-lg;
       }
+
+      .aside {
+         @apply my-10 py-5 px-3;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold mb-3 text-3xl;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-xl font-bold;
+      }
    }
 
    @media screen(mbl_m) {
@@ -66,6 +78,18 @@
       .main__content__box__01 a {
          @apply px-8 py-2 text-lg;
       }
+
+      .aside {
+         @apply my-10 py-5 px-3;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold mb-3 text-4xl;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-xl font-bold;
+      }
    }
 
    @media screen(mbl_l) {
@@ -99,6 +123,18 @@
 
       .main__content__box__01 a {
          @apply px-8 py-2 text-lg;
+      }
+
+      .aside {
+         @apply my-10 py-5 px-3;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold mb-3 text-3xl;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-xl font-bold;
       }
    }
 
@@ -136,6 +172,22 @@
 
       .main__content__box__01 a {
          @apply px-4 py-1  mt-5 tracking-widest;
+      }
+
+      .aside {
+         @apply px-2 py-2;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold text-2xl;
+      }
+
+      .aside__item {
+         @apply block cursor-pointer mt-1 mb-4 pr-6;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-base font-bold;
       }
    }
 
@@ -181,6 +233,26 @@
 
       .main__content__box__01 a {
          @apply px-9 py-2  mt-5 tracking-widest hover:bg-veryDarkBlue transition-all delay-200;
+      }
+
+      .aside {
+         @apply py-4 px-5;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold text-4xl;
+      }
+
+      .aside__item {
+         @apply block cursor-pointer mt-2 mb-4 pr-6;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-lg font-bold transition-all delay-200;
+      }
+
+      .aside__item__text {
+         @apply text-grayishBlue leading-7;
       }
    }
 
@@ -228,6 +300,26 @@
       .main__content__box__01 a {
          @apply px-11 py-3  mt-10 tracking-widest hover:bg-veryDarkBlue transition-all delay-200;
       }
+
+      .aside {
+         @apply py-5 px-5;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold text-5xl;
+      }
+
+      .aside__item {
+         @apply block cursor-pointer mt-8 mb-8 pr-6;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-lg font-bold transition-all delay-200;
+      }
+
+      .aside__item__text {
+         @apply text-grayishBlue leading-7;
+      }
    }
 
    @media screen(other) {
@@ -273,6 +365,26 @@
 
       .main__content__box__01 a {
          @apply px-11 py-3  mt-10 tracking-widest hover:bg-veryDarkBlue transition-all delay-200;
+      }
+
+      .aside {
+         @apply py-5 px-5;
+      }
+
+      .aside__title {
+         @apply text-softOrange font-bold text-5xl;
+      }
+
+      .aside__item {
+         @apply block cursor-pointer mt-8 mb-8 pr-6;
+      }
+
+      .aside__item__subtitle {
+         @apply text-white text-lg font-bold transition-all delay-200;
+      }
+
+      .aside__item__text {
+         @apply text-grayishBlue leading-7;
       }
    }
 }
