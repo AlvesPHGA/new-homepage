@@ -13,7 +13,7 @@ function App() {
                <MainContent />
                <AsideContent />
             </section>
-            <section className="xl:flex xl:justify-between xl:pt-20 2xl:flex 2xl:justify-between 2xl:pt-20 lg:flex lg:justify-between lg:pt-16 mbl_s:flex mbl_s:flex-col mbl_s:gap-4 mbl_m:flex mbl_m:flex-col mbl_m:gap-4 mbl_l:flex mbl_l:flex-col mbl_l:gap-4">
+            <section className="main__box__02">
                <Card />
                <Card />
                <Card />

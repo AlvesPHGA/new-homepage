@@ -8,11 +8,19 @@
       .main__box__01 {
          @apply w-full flex flex-col;
       }
+
+      .main__box__02 {
+         @apply flex flex-col gap-4;
+      }
    }
 
    @media screen(mbl_m) {
       .main__box__01 {
          @apply w-full flex flex-col;
+      }
+
+      .main__box__02 {
+         @apply flex flex-col gap-4;
       }
    }
 
@@ -20,11 +28,19 @@
       .main__box__01 {
          @apply w-full flex flex-col;
       }
+
+      .main__box__02 {
+         @apply flex flex-col gap-4;
+      }
    }
 
    @media screen(tablet) {
       .main__box__01 {
          @apply grid w-full grid-cols-main justify-between;
+      }
+
+      .main__box__02 {
+         @apply flex justify-between pt-16;
       }
    }
 
@@ -32,17 +48,29 @@
       .main__box__01 {
          @apply w-full grid grid-cols-main justify-between;
       }
+
+      .main__box__02 {
+         @apply flex justify-between pt-16;
+      }
    }
 
    @media screen(desktop) {
       .main__box__01 {
          @apply w-full grid grid-cols-main justify-between;
       }
+
+      .main__box__02 {
+         @apply flex justify-between pt-20;
+      }
    }
 
    @media screen(other) {
       .main__box__01 {
          @apply w-full grid grid-cols-main justify-between;
+      }
+
+      .main__box__02 {
+         @apply flex justify-between pt-20;
       }
    }
 }
