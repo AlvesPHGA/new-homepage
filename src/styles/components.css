@@ -44,6 +44,18 @@
       .aside__item__subtitle {
          @apply text-white text-xl font-bold;
       }
+
+      .card {
+         @apply flex font-inter w-full gap-2;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-base font-bold;
+      }
    }
 
    @media screen(mbl_m) {
@@ -90,6 +102,18 @@
       .aside__item__subtitle {
          @apply text-white text-xl font-bold;
       }
+
+      .card {
+         @apply flex font-inter w-full gap-2;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-3xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-xl font-extra-bold my-2;
+      }
    }
 
    @media screen(mbl_l) {
@@ -135,6 +159,18 @@
 
       .aside__item__subtitle {
          @apply text-white text-xl font-bold;
+      }
+
+      .card {
+         @apply flex font-inter w-full gap-2;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-3xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-xl font-extra-bold my-2;
       }
    }
 
@@ -188,6 +224,22 @@
 
       .aside__item__subtitle {
          @apply text-white text-base font-bold;
+      }
+
+      .card {
+         @apply flex font-inter w-[calc(768px/2)] mt-6 gap-3;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-4xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-xl font-extra-bold my-2;
+      }
+
+      .card__box__text {
+         @apply text-darkGrayishBlue text-sm;
       }
    }
 
@@ -253,6 +305,26 @@
 
       .aside__item__text {
          @apply text-grayishBlue leading-7;
+      }
+
+      .card {
+         @apply flex font-inter gap-4 w-wCard_lg h-fit cursor-pointer;
+      }
+
+      .card__box {
+         @apply flex flex-col justify-center gap-1;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-2xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-lg font-extra-bold transition-all delay-200;
+      }
+
+      .card__box__text {
+         @apply text-darkGrayishBlue text-sm pr-6;
       }
    }
 
@@ -320,6 +392,26 @@
       .aside__item__text {
          @apply text-grayishBlue leading-7;
       }
+
+      .card {
+         @apply flex font-inter gap-6 w-wCard h-fit cursor-pointer;
+      }
+
+      .card__box {
+         @apply flex flex-col justify-center gap-1;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-4xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-xl font-extra-bold transition-all delay-200;
+      }
+
+      .card__box__text {
+         @apply text-darkGrayishBlue text-sm pr-6;
+      }
    }
 
    @media screen(other) {
@@ -385,6 +477,26 @@
 
       .aside__item__text {
          @apply text-grayishBlue leading-7;
+      }
+
+      .card {
+         @apply flex font-inter gap-6 w-wCard h-fit cursor-pointer;
+      }
+
+      .card__box {
+         @apply flex flex-col justify-center gap-1;
+      }
+
+      .card__box__number {
+         @apply font-bold text-grayishBlue text-4xl;
+      }
+
+      .card__box__title {
+         @apply text-veryDarkBlue text-xl font-extra-bold transition-all delay-200;
+      }
+
+      .card__box__text {
+         @apply text-darkGrayishBlue text-sm pr-6;
       }
    }
 }
