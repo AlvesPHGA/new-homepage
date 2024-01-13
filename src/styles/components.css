@@ -468,7 +468,7 @@
       }
 
       .aside__item {
-         @apply block cursor-pointer mt-8 mb-8 pr-6;
+         @apply block cursor-pointer pr-6;
       }
 
       .aside__item__subtitle {
