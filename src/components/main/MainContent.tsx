@@ -1,8 +1,10 @@
+import { useFirstPrismicDocument } from '@prismicio/react';
 import coverMain from '../../assets/images/image-web-3-desktop.jpg';
 import coverMainMbl from '../../assets/images/image-web-3-mobile.jpg';
 
 export function MainContent() {
-   const { innerWidth } = window;
+   const [document] = useFirstPrismicDocument();
+   console.log(document);
    return (
       <section className="main__content">
          <img
