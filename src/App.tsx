@@ -1,14 +1,15 @@
-import { AsideContent } from './components/aside/Aside';
-import { Card } from './components/card/Card';
-import { Header } from './components/global/Header/Header';
-import { MainContent } from './components/main/MainContent';
+// import { AsideContent } from './components/aside/Aside';
+// import { Card } from './components/card/Card';
+// import { Header } from './components/global/Header/Header';
+// import { MainContent } from './components/main/MainContent';
 
-import { aside_section, cards } from '../content.mock.json';
+// import { aside_section, cards } from '../content.mock.json';
+import { MappedRoutes } from './routes';
 
 function App() {
    return (
       <>
-         <Header />
+         {/* <Header />
 
          <main>
             <section className="main__box__01">
@@ -26,7 +27,8 @@ function App() {
                ))}
             </section>
          </main>
-         <footer></footer>
+         <footer></footer> */}
+         <MappedRoutes />
       </>
    );
 }
