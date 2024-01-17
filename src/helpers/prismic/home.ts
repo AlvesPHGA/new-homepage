@@ -9,8 +9,8 @@ export const handleDocument = () => {
    const data: homeDocument = document?.data;
 
    return {
-      title: data?.title_page,
-      description: data?.principal_description_page,
+      title: data?.title_page?.[0].text,
+      description: data?.principal_description_page?.[0].text,
       cardsContainer: {
          cards: data?.body?.[0].items?.map((primaryCard) => ({
             numberPublish: primaryCard?.number_post,

@@ -1,10 +1,17 @@
-import { useFirstPrismicDocument } from '@prismicio/react';
+// import { useFirstPrismicDocument } from '@prismicio/react';
 import coverMain from '../../assets/images/image-web-3-desktop.jpg';
 import coverMainMbl from '../../assets/images/image-web-3-mobile.jpg';
 
-export function MainContent() {
-   const [document] = useFirstPrismicDocument();
-   console.log(document);
+interface ICMainContent {
+   title?: string;
+   description?: string;
+}
+
+export function MainContent({ title, description }: ICMainContent) {
+   // const [document] = useFirstPrismicDocument();
+
+   if (!title || !description) return null;
+
    return (
       <section className="main__content">
          <img
@@ -13,16 +20,10 @@ export function MainContent() {
          />
 
          <div className="main__content__box">
-            <h1 className="main__content__title">
-               The Bright Future of Web 3.0?
-            </h1>
+            <h1 className="main__content__title">{title}</h1>
 
             <div className="main__content__box__01">
-               <p>
-                  We dive into the next evolution of the web that claims to put
-                  the power of the platforms back into the hands of the people.
-                  But is it really fulfilling its promise?
-               </p>
+               <p>{description}</p>
 
                <a href="" className="main__content__cta">
                   Read more
