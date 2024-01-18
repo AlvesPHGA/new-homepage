@@ -7,11 +7,11 @@ export interface IPCard {
 
 export function Card({ number, title, image, content }: IPCard) {
    return (
-      <a className="card groups">
+      <a className="card group">
          <img
             src={`${image?.url}`}
             alt={`${image?.alt}`}
-            className="object-fill h-[152px]"
+            className="h-[152px] w-[156px] object-fill"
          />
          <div className="card__box">
             <span className="card__box__number">0{number}</span>
