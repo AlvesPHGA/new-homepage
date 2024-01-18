@@ -4,10 +4,10 @@
 
 ## Technologies
 
-. React
-. TypeScript
-. Tailwind
-. Storybook
-. Prismic (CMS)
+-  React
+-  TypeScript
+-  Tailwind
+-  Storybook
+-  Prismic (CMS)
 
 ## Prints
