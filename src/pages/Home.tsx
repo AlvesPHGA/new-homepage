@@ -4,10 +4,12 @@ import { Header } from '../components/global/Header/Header';
 import { MainContent } from '../components/main/MainContent';
 import { handleDocument } from '../helpers/prismic/home';
 
-import { aside_section, cards } from '../../content.mock.json';
+import { aside_section } from '../../content.mock.json';
 
 const Home = () => {
    const homeData = handleDocument();
+
+   console.log(homeData?.cardsContainer);
 
    return (
       <>
@@ -26,9 +28,17 @@ const Home = () => {
                </aside>
             </section>
             <section className="main__box__02">
-               {cards.map((card) => (
-                  <Card key={card.id} {...card} />
-               ))}
+               {homeData?.cardsContainer?.cards?.map((card) =>
+                  card?.map((c) => (
+                     <Card
+                        key={c.numberPublish}
+                        number={c?.numberPublish}
+                        title={c?.titleCard}
+                        image={c?.imageCard}
+                        content={c?.contentCard}
+                     />
+                  )),
+               )}
             </section>
          </main>
       </>
