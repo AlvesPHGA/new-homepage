@@ -14,3 +14,7 @@ But the principal objective of the project was to start using the Prismic CMS an
 -  Prismic (CMS)
 
 ## Prints
+
+### Site
+
+### Storybook
