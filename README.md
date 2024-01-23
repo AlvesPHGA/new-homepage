@@ -6,6 +6,8 @@ This project consists of a small challenge of Frontend Mentor where there is a h
 But the principal objective of the project was to start using the Prismic CMS and Storybook, so this is my first project that used these two tools.
 Also was seen a some about componets.
 
+\*\*Obs.: I didn't design the project for a mobile device.
+
 ## Technologies
 
 -  React
