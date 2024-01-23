@@ -1,3 +1,10 @@
+export interface ICard {
+   id: string;
+   img: string;
+   title: string;
+   text: string;
+}
+
 export interface IPCard {
    number?: number;
    title?: string;
